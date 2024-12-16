@@ -1,0 +1,38 @@
+/* Hover Effect untuk Tabel */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa; /* Warna saat hover */
+    cursor: pointer !important; /* Ubah mouse menjadi tangan */
+}
+
+/* Deskripsi Singkat */
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Maksimum 3 baris */
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+    max-height: 4.5em; /* 3 baris x 1.5 line-height */
+    white-space: normal;
+}
+
+/* Kontainer "Lihat Selengkapnya" */
+.see-more-container {
+    margin-top: 5px; /* Jarak dengan deskripsi */
+    text-align: left; /* Atur posisi teks */
+}
+
+/* Teks "Lihat Selengkapnya" seperti tautan */
+.see-more,
+.see-less {
+    color: #007bff; /* Warna biru seperti link */
+    cursor: pointer; /* Mouse berubah menjadi tangan */
+    font-size: 0.9rem;
+    text-decoration: underline; /* Garis bawah seperti link */
+}
+
+/* Deskripsi Lengkap */
+.description-full {
+    line-height: 1.5;
+    white-space: normal;
+}

@@ -1,0 +1,247 @@
+{
+    "locations": [
+        {
+            "name": "Air Terjun Lano",
+            "coords": [-1.7285989, 115.6787146],
+            "category": "Kehutanan",
+            "description": "Air terjun Lano dikelola oleh Lembaga Pengelola Hutan Desa (LPHD) Desa Lano dengan Ketua Padeli. Air terjun ini memiliki ketinggian 7 meter. Jarak air terjun Lano dari ibu kota kabupaten ± 70 Km ke arah utara berbatasan dengan Provinsi Kalimantan Timur dan ± 10 Km dari ibu kota kecamatan. Di area ini tersedia fasilitas tempat parkir, pusat kuliner, arena bermain anak-anak, tempat istirahat, tempat ibadah, dan MCK/toilet. Hutan Desa Lano memiliki luas 1.005,00 ha kawasan hutan lindung.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/airterjunlano.jpg",
+            "additional_info": "Kec. Jaro, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Goa Liang Tapah",
+            "coords": [-1.8122595, 115.6265605],
+            "category": "Kehutanan",
+            "description": "Goa Liang Tapah dikelola oleh masyarakat setempat dengan membentuk Kelompok Tani Hutan (KTH) Telaga Bidadari yang diketuai oleh Kurdiansyah dengan luas kurang lebih 55 Ha. Jarak Goa Liang Tapah dari ibu kota Kabupaten Tabalong ± 60 Km dan dari ibu kota kecamatan ± 5 Km. Fasilitas yang ada meliputi tempat parkir, tempat istirahat, warung, dan toilet (MCK).",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/goaliangtapah.jpg",
+            "additional_info": "Kec. Jaro, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Puncak Gunung Karamo",
+            "coords": [-1.8678144, 115.6320662],
+            "category": "Kehutanan",
+            "description": "Wisata alam Gunung Karamo menawarkan dua daya tarik utama: Puncak Gunung Karamo dengan spot foto dan aktivitas belantingan atau tubbing di derasnya arus sungai Teratau. Wisata ini dikelola oleh masyarakat setempat melalui Kelompok Tani Hutan (KTH) Karamo Bersinar, bekerja sama dengan Pokdarwis Desa Teratau dan KPH Tabalong, dengan luas areal ± 150 Ha. Jarak dari ibu kota kabupaten ± 45 Km.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/gunungkaramo.jpg",
+            "additional_info": "Kec. Jaro, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Riam Kinarum",
+            "coords": [-2.0415098, 115.6333724],
+            "category": "Kehutanan",
+            "description": "Riam Kinarum berjarak ± 35 Km dari ibu kota kabupaten dan ± 4 Km dari ibu kota kecamatan. Wisata ini dikelola oleh Kelompok Tani Hutan Watu Marung yang bermitra dengan KPH Tabalong, dipimpin oleh Suparin. Area ini mencakup hutan produksi seluas 190,00 Ha.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/riamkinarum.jpg",
+            "additional_info": "Kec. Upau, Kinarum, Kalimantan Selatan"
+        },
+        {
+            "name": "Batu Timbul",
+            "coords": [-1.83298413, 115.65499495],
+            "category": "Kehutanan",
+            "description": "Batu Timbul berada di kawasan hutan produksi Desa Nalui, Kecamatan Jaro, Kabupaten Tabalong. Lokasi ini dikelola oleh Lembaga Pengelolaan Hutan Desa (LPHD) Nalui, dengan luas hutan produksi terbatas 138,00 Ha. Wisata ini memiliki fasilitas gazebo, rumah pohon, spot foto, warung kuliner, toilet, dan kamar ganti.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/batutimbul.jpg",
+            "additional_info": "Kec. Jaro, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Riam Missi Salikung",
+            "coords": [-1.843727, 115.581476],
+            "category": "Kehutanan",
+            "description": "Berada di ujung utara Kalimantan Selatan, kawasan ini menyuguhkan keindahan alam di wilayah Kecamatan Muara Uya dan Jaro, sebagian besar berupa kawasan hutan lindung di Desa Salikung.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/riammissisalikung.jpg",
+            "additional_info": "Kec. Muara Uya, Kab. Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Air Terjun Mambanin",
+            "coords": [-2.000324, 115.627615],
+            "category": "Kehutanan",
+            "description": "Air Terjun Mambanin memiliki ketinggian ± 5 meter dan terletak di Desa Marindi, Kecamatan Haruai. Kawasan ini mencakup hutan produksi seluas 566,89 Ha. Jarak objek wisata dengan ibu kota kabupaten ± 32 Km.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/airterjunmambanin.jpg",
+            "additional_info": "Kec. Haruai, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Air Terjun Tangkum",
+            "coords": [-1.849161, 115.402271],
+            "category": "Kehutanan",
+            "description": "Air Terjun Tangkum berada di Desa Panaan, Kecamatan Batang Ara. Lokasi ini memiliki tiga air terjun yang hanya dapat ditempuh dengan berjalan kaki. Jarak tempuh dari ibu kota kabupaten sekitar 2 jam menggunakan sepeda motor.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/airterjuntangkum.jpg",
+            "additional_info": "Kec. Bintang Ara, Kabupaten Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Air Panas Luyuh",
+            "coords": [-2.202595, 115.399284],
+            "category": "Kehutanan",
+            "description": "Mata Air Panas Luyuh berada di Desa Tamiang, Kecamatan Tanta, sekitar 10 kilometer dari ibu kota kecamatan. Lokasi ini akan dijadikan paket wisata oleh Disporapar dengan tarif 150 ribu rupiah, termasuk konsumsi dan tiket masuk.",
+            "agency": "KPH, Disporapar",
+            "image": "kehutanan/airpanasluyuh.jpg",
+            "additional_info": "Desa Tamiyang, Kecamatan Tanta, Kalimantan Selatan"
+        },
+        {
+            "name": "Pengembangan Ternak Sapi",
+            "coords": [-2.070638621225953, 115.36697843112051],
+            "category": "Peternakan",
+            "description": "Populasi ternak sebanyak jantan 4 ekor dan betina 16 ekor.",
+            "agency": "Disbunnak",
+            "image": "peternakan/pengembangansapi.jpg",
+            "additional_info": "Desa Kambitin Raya, Kecamatan Tanjung, Kalimantan Selatan"
+        },
+        {
+            "name": "Pengolahan Bakso Sapi",
+            "coords": [-2.1557, 115.4082],
+            "category": "Peternakan",
+            "description": "Pengolahan bakso sapi.",
+            "agency": "Disperindag",
+            "image": "peternakan/pengolahanbaksosapi.jpg",
+            "additional_info": "Desa Belimbing Raya, Kecamatan Murung Pudak, Kalimantan Selatan"
+        },
+        {
+            "name": "Pengembangan Ternak Kambing",
+            "coords": [-1.910972, 115.568896],
+            "category": "Peternakan",
+            "description": "Populasi ternak sebanyak jantan 8 ekor dan betina 27 ekor.",
+            "agency": "Disbunnak",
+            "image": "peternakan/pengembangankambing.jpg",
+            "additional_info": "Desa Simpung Layung, Kecamatan Muara Uya, Kalimantan Selatan"
+        },
+        {
+            "name": "Pengembangan Ternak Unggas (Itik)",
+            "coords": [-2.323333, 115.291944],
+            "category": "Peternakan",
+            "description": "Populasi ternak sebanyak Itik MA 620 ekor dan Alabio 220 ekor.",
+            "agency": "Disbunnak",
+            "image": "peternakan/pengembanganitik.jpg",
+            "additional_info": "Desa Hariang, Kecamatan Banua Lawas, Kalimantan Selatan"
+        },
+        {
+            "name": "Pengolahan Karet",
+            "coords": [-1.966203333, 115.545861667],
+            "category": "Perkebunan",
+            "description": "Mengelola 10 ton bokar per bulan.",
+            "agency": "Disperindag",
+            "image": "perkebunan/pengolahankaret.jpg",
+            "additional_info": "UPPB Bima Sakti, Desa Ribang, Kecamatan Muara Uya, Kalimantan Selatan"
+        },
+        {
+            "name": "Kopi Robusta",
+            "coords": [-1.8346, 115.6071],
+            "category": "Perkebunan",
+            "description": "Memproduksi 10 Kg/bulan kopi bubuk robusta. Dikemas 80 gram, dijual Rp.20.000/bungkus.",
+            "agency": "Dinas Pertanian",
+            "image": "pertanian/kopirobusta.jpg",
+            "additional_info": "Kelompok Tani Gunung Batuah, Desa Santu’un, Kecamatan Muara Uya, Kalimantan Selatan"
+        },
+        {
+            "name": "Kacang Sate",
+            "coords": [-2.0203, 115.4301],
+            "category": "Perdagangan",
+            "description": "Kacang Sate Khas Kabupaten Tabalong adalah sebuah kelezatan kuliner yang mencerminkan cita rasa autentik dari daerah Tabalong, Kalimantan Selatan, Indonesia. Terinspirasi oleh kekayaan budaya lokal, yaitu aroma sate itik Pamarangan yang berada di Kecamatan Tanjung Kabupaten Tabalong, kacang sate ini menghadirkan sentuhan khas yang membedakannya dari variasi panganan kacang di tempat lain.",
+            "agency": "Disperindag",
+            "image": "perdagangan/kacangsate.jpg",
+            "additional_info": "Jl. Jend. Basuki Rahmat Rt. 03 Kelurahan Agung Kecamatan Tanjung"
+        },
+        {
+            "name": "Kulit Kayu",
+            "coords": [-2.1875, 115.4741],
+            "category": "Perdagangan",
+            "description": "Kerajinan kulit kayu yang dihasilkan di Kabupaten Tabalong adalah produk seni yang menggabungkan keahlian tangan dengan bahan alami yang khas. Ini adalah hasil dari upaya berbakat para pengrajin lokal yang telah mewarisi tradisi ini selama berabad-abad.",
+            "agency": "Disperindag",
+            "image": "perdagangan/kulitkayu.jpg",
+            "additional_info": "Desa Pangelak Kecamatan Upau"
+        },
+        {
+            "name": "Kerajinan Rotan",
+            "coords": [-2.2621, 115.5476],
+            "category": "Perdagangan",
+            "description": "Rotan adalah bahan alam lokal yang ada di Kabupaten Tabalong. Tanaman rotan tumbuh subur di hutan-hutan dan lahan yang subur di daerah ini.",
+            "agency": "Disperindag",
+            "image": "perdagangan/kerajinanrotan.jpg",
+            "additional_info": "Desa Dambung Raya Kecamatan Bintang Ara"
+        },
+        {
+            "name": "Pandai Besi",
+            "coords": [-2.3534, 115.5815],
+            "category": "Perdagangan",
+            "description": "Pandai besi adalah seorang seniman dan pengrajin logam yang terampil dengan pengetahuan mendalam tentang sifat-sifat logam, teknik pemotongan, pemanasan, penempaan, dan pengkhususan dalam pengolahan besi.",
+            "agency": "Disperindag",
+            "image": "perdagangan/pandaibesi.jpg",
+            "additional_info": "Desa Suput Kecamatan Haruai"
+        },
+        {
+            "name": "Kerajinan Kayu",
+            "coords": [-2.1929, 115.3956],
+            "category": "Perdagangan",
+            "description": "Kerajinan olahan kayu adalah produk hasil dari proses kreatif dan teknik pengolahan kayu untuk menghasilkan berbagai barang fungsional maupun dekoratif.",
+            "agency": "Disperindag",
+            "image": "perdagangan/kerajinankayu.jpg",
+            "additional_info": "Komp. Pondok Karet Desa Tanta Hulu Kecamatan Tanta"
+        },
+        {
+            "name": "Taman Bunga Poska",
+            "coords": [-2.339889, 115.300608],
+            "category": "Pariwisata",
+            "description": "Taman Bunga Poska mulai populer sejak awal tahun 2019. Awal mula dibangunnya taman ini adalah dengan tujuan meningkatkan ekonomi masyarakat sekitar dan membantu pembangunan TK Al Quran. Koleksi bunga yang ada di sini ditata dengan baik dan disediakan secara khusus untuk spot foto. Tersedia berbagai spot foto di antaranya ada taman bunga matahari, bunga celosia, menara pandang, dan masih banyak lagi.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/tamanbungaposka.jpg",
+            "additional_info": "Desa Pematang Kec. Banua Lawas"
+        },
+        {
+            "name": "Taman Sapana",
+            "coords": [-2.339733, 115.301155],
+            "category": "Pariwisata",
+            "description": "Jaraknya 31 Kilometer dari Tugu Obor Mabuun atau waktu tempuh sekitar 1 jam. Untuk kondisi jalan terbilang cukup nyaman karena beraspal dan bisa dilalui dengan menggunakan kendaraan roda empat. Lokasi Taman Sapana ini juga berdekatan dengan beberapa tempat wisata lainnya seperti Wisata Danau Biru, wisata kebun sayur dan agrowisata, serta wisata taman bunga Bauntung Batuah dan Poska.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/tamansapana.jpg",
+            "additional_info": "Desa Pematang, Kecamatan Banua Lawas, Kabupaten Tabalong"
+        },
+        {
+            "name": "Bandara Warukin",
+            "coords": [-2.212525, 115.441752],
+            "category": "Pariwisata",
+            "description": "Bandara yang terletak di Desa Warukin, Kecamatan Tanta ini sempat beroperasi untuk melayani penerbangan umum. Namun pada tahun 2020 atau saat pandemi, bandara ini sempat ditutup. Meski belum beroperasi, pemeliharaan Bandara Udara Warukin tetap dilakukan mulai dari runway hingga fasilitas pendukung lainnya.",
+            "agency": "Kemenhub",
+            "image": "pariwisata/bandarawarukin.jpg",
+            "additional_info": "Warukin, Tanta, Tabalong, Kalimantan Selatan"
+        },
+        {
+            "name": "Taman Wisata Menanti Laburan",
+            "coords": [-2.228058, 115.453097],
+            "category": "Pariwisata",
+            "description": "Taman Wisata Menanti Laburan memiliki luas tanah kurang lebih 5,1 Ha. Dalam peruntukannya, 1,9 Ha sudah digunakan untuk taman wisata, 0,5 Ha untuk kegiatan TPS 3R, dan 2,7 Ha untuk lapangan Grass Track. Dalam lokasi taman sudah ada flying fox, sepeda gantung, jembatan tali, bebekan air, kolam renang, serta spot foto yang beraneka macam.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/tamanwisatamenantilaburan.jpg",
+            "additional_info": "Desa Padang Panjang Kec. Tanta"
+        },
+        {
+            "name": "Taman Giat Kota Tanjung",
+            "coords": [-2.165275, 115.383207],
+            "category": "Pariwisata",
+            "description": "Taman Giat difungsikan sebagai ruang terbuka hijau, memiliki air mancur di area tengah yang akan menyala pada malam hari. Taman ini berada di area tengah kota dan strategis, dekat dengan tempat ibadah dan Pasar Tanjung.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/tamangiattanjung.jpg",
+            "additional_info": "Jl. Pangeran Antasari, Tanjung, Kab. Tabalong"
+        },
+        {
+            "name": "Waterboom Mini Kambitin",
+            "coords": [-2.070003, 115.376176],
+            "category": "Pariwisata",
+            "description": "Waterboom ini menyajikan tempat outbound, camping ground, kebun binatang mini, kebun bunga, dan masih banyak lagi.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/waterboomminikambitin.jpg",
+            "additional_info": "Desa Kambitin Raya, Tanjung, Tabalong"
+        },
+        {
+            "name": "Wisata Agro Hikun Agri Park",
+            "coords": [-2.136266, 115.390177],
+            "category": "Pariwisata",
+            "description": "Hikun Agri Park memiliki potensi yang didominasi tanaman buah, bunga, dan aneka sayuran. Tempat ini sangat cocok sebagai tempat belajar dan riset, serta menjadi sarana wisata edukasi pertanian khususnya pertanian semi-organik.",
+            "agency": "Dispar Tabalong",
+            "image": "pariwisata/wisataagrohikun.jpg",
+            "additional_info": "Desa Hikun, Kec Tanjung"
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sidebar {
+    width: 300px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+#map {
+    flex: 1;
+}
+.container-flex {
+    display: flex;
+    flex: 1;
+}
+
+/* Style dasar card */
+.btn-category {
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-category:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Warna hover */
+    color: #0056b3;
+}
+
+.btn-category.active {
+    background-color: rgba(0, 123, 255, 0.2); /* Warna hover */
+    border: #0056b3;
+    color: #0056b3;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+
+/* sidebar */
+
+#sidebar {
+    height: calc(100vh - 100px); /* Sesuaikan tinggi sidebar dengan viewport */
+    overflow-y: auto; /* Aktifkan scroll hanya untuk sidebar */
+    scrollbar-width: thin; /* Untuk browser modern, memperkecil scrollbar */
+    scrollbar-color: transparent transparent; /* Awalnya disembunyikan */
+}
+
+#sidebar:hover {
+    scrollbar-color: #ccc #f1f1f1; /* Muncul saat di-hover */
+}
+
+#sidebar::-webkit-scrollbar {
+    width: 5px; /* Scrollbar kecil */
+}
+
+#sidebar::-webkit-scrollbar-track {
+    background: transparent; /* Awalnya disembunyikan */
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+    background: transparent; /* Awalnya disembunyikan */
+}
+
+#sidebar:hover::-webkit-scrollbar-thumb {
+    background: #ccc; /* Scrollbar muncul saat di-hover */
+    border-radius: 10px;
+}
+
+/* login */
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+/* Tombol Menu default: disembunyikan */
+#toggleSidebarBtn {
+    display: none; /* Sembunyikan tombol secara default */
+}
+
+/* maps */
+/* Kontainer Map */
+#map {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: calc(100vh - 60px);
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Tombol Zoom (Leaflet) */
+.leaflet-control-zoom {
+    position: absolute !important;
+    top: 10px; /* Atur jarak dari atas */
+    left: 10px; /* Atur jarak dari kiri */
+    z-index: 1000; /* Pastikan berada di atas elemen lain */
+}
+
+/* Tombol Layer Switcher */
+.leaflet-control-layers {
+    position: absolute !important;
+    top: 10px; /* Atur jarak dari atas */
+    right: 10px; /* Atur jarak dari kanan */
+    z-index: 1000; /* Pastikan berada di atas elemen lain */
+    min-width: 100px; /* Tentukan lebar minimum */
+    padding: 5px 10px; /* Tambahkan padding agar lebih lega */
+    white-space: nowrap; /* Pastikan teks tidak turun ke bawah */
+}
+
+.leaflet-popup-content img {
+    max-width: 100%; /* Atur gambar agar sesuai dengan lebar popup */
+    height: auto; /* Pertahankan rasio aspek */
+    display: block; /* Hindari masalah margin */
+    margin: 0 auto; /* Pusatkan gambar */
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+/* Responsive untuk Mobile */
+@media (max-width: 768px) {
+    /* Reset untuk menghindari margin/padding default */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Header */
+    #header {
+        background-color: #f8f9fa;
+        padding: 5px 10px;
+        height: 60px; /* Tetapkan tinggi header */
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    #header img {
+        width: 40px !important; /* Paksa ukuran logo */
+    }
+
+    #header h1 {
+        font-size: 0.6rem !important; /* Paksa ukuran teks judul */
+        line-height: 1.2 !important;
+    }
+
+    #header h1 small {
+        font-size: 0.4rem !important; /* Paksa ukuran teks kecil */
+    }
+
+    /* Sidebar */
+    #sidebar {
+        position: fixed;
+        top: 60px; /* Tepat di bawah header */
+        left: -300px; /* Sembunyikan sidebar di mobile */
+        width: 200px;
+        height: calc(100vh - 60px); /* Tinggi penuh dikurangi header */
+        background-color: #f8f9fa;
+        overflow-y: auto;
+        z-index: 99999;
+        transition: left 0.3s ease-in-out;
+    }
+
+    #sidebar.active {
+        left: 0; /* Sidebar muncul */
+    }
+
+    /* Tombol Menu untuk Mobile */
+    #toggleSidebarBtn {
+        display: inline-block; /* Tampilkan tombol */
+    }
+    /* Tombol Menu */
+    #toggleSidebarBtn {
+        position: absolute; /* Posisi absolut */
+        top: calc(10px + 160px); /* Pindah ke bawah kontrol Layer Switcher */
+        right: 25px; /* Tetap sejajar dengan kontrol Layer Switcher */
+        z-index: 1000; /* Tetap di atas elemen lain */
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        background-color: #ffffff; /* Warna latar belakang */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* Tombol Navigasi (Dashboard dan Login) */
+    #header a.btn {
+        font-size: 0.6rem; /* Ukuran font lebih kecil */
+        padding: 5px 10px; /* Padding tombol lebih kecil */
+    }
+
+    /* Kontainer Map */
+    #map {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: calc(100vh - 60px);
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Tombol Zoom (Leaflet) */
+    .leaflet-control-zoom {
+        position: absolute !important;
+        top: 70px; /* Atur jarak dari atas */
+        left: 10px; /* Atur jarak dari kiri */
+    }
+
+    /* Tombol Layer Switcher */
+    .leaflet-control-layers {
+        position: absolute !important;
+        top: 70px; /* Atur jarak dari atas */
+        right: 10px; /* Atur jarak dari kanan */
+        z-index: 1000; /* Pastikan berada di atas elemen lain */
+        min-width: 100px; /* Tentukan lebar minimum */
+        padding: 5px 10px; /* Tambahkan padding agar lebih lega */
+        white-space: nowrap; /* Pastikan teks tidak turun ke bawah */
+    }
+}
